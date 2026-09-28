@@ -5,6 +5,11 @@ Ford F-150 Lightning to a WOLFBOX SmartSlide tonneau cover (BLE), watches the
 truck's CAN bus for lock/gear/ignition state, and maps HomeLink buttons to
 cover commands.
 
+> [!WARNING]
+> **This is beta software.** Mellon listens to your truck's CAN bus and controls your tonneau cover based on various vehicle states. Beta releases are tested only on the developer's own truck and may contain bugs that cause unexpected cover movement, lighting behaviour, or failure to respond. Don't rely on it where an unexpected cover movement could cause injury or damage, and keep clear of the cover when it may move. It's provided as-is, with no warranty. You install and use it at your own risk.
+>
+> After installing a beta, Mellon's portal asks you to acknowledge this before anything else.
+
 This repository holds **release images only**. The source lives elsewhere.
 
 ## Installing an update
